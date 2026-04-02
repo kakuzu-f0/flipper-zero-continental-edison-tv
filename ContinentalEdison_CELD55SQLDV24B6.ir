@@ -117,7 +117,7 @@ command: 4C B3 00 00
 
 #
 # ==================================================
-# MENUS
+# MENUS & NAVIGATION
 # ==================================================
 #
 name: Settings
@@ -137,6 +137,18 @@ type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 21 DE 00 00
+
+name: Home
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 42 BD 00 00
+
+name: Exit
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 32 CD 00 00
 
 #
 # ==================================================
